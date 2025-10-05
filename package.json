@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "prod": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^0.25",
+        "laravel-vite-plugin": "^0.2.1",
+        "lodash": "^4.17.19",
+        "path": "^0.12.7",
+        "postcss": "^8.1.14",
+        "sass": "^1.53.0",
+        "vite": "^2.9.11"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.1.1",
+        "@popperjs/core": "^2.11.5",
+        "bootstrap": "^5.1.3",
+        "bootstrap-confirmation": "^0.0.2",
+        "bootstrap-datepicker": "^1.9.0",
+        "datatables.net": "^1.12.1",
+        "datatables.net-buttons": "^2.2.3",
+        "dropzone": "^6.0.0-beta.2",
+        "inputmask": "^5.0.7",
+        "jquery": "^3.6.0",
+        "jquery-confirm": "^3.3.4",
+        "jquery-validation": "^1.19.5",
+        "jquery.inputmask": "^3.3.4",
+        "jquery.repeater": "^1.2.1",
+        "moment": "^2.29.4",
+        "overlayscrollbars": "^1.13.2",
+        "pdf-merger-js": "^4.1.1",
+        "print-js": "^1.6.0",
+        "select2": "^4.0",
+        "sweetalert2": "^11.4.37"
+    }
+}

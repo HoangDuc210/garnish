@@ -1,0 +1,77 @@
+<?php
+
+$arrJapan =  [
+    'create_new' => '得意先情報登録',
+    'edit_item' => '得意先情報編集',
+    'filter' => '得意先 検索',
+    'created' => '得意先を追加いたしました',
+    'updated' => '得意先情報を正常に変更されました',
+    'deleted' => '削除されました。',
+    'code' => '得意先No.',
+    'name' => '得意先名称',
+    'name_kana' => 'かな名称',
+    'zip_code' => '〒',
+    'address' => '住所 ①',
+    'address_more' => '住所 ②',
+    'fax' => 'FAX',
+    'tel' => 'TEL',
+    'billing_cycle' => '締日',
+    'billing_cycle_help_text' => '※月末締は３１に設定。',
+    'price_format' => '端数処理',
+    'tax_category' => '消費税区分',
+    'price_after_tax_format' => '消費税端数',
+    'billing_name' => '請求先名',
+    'assign_as_billing' => '請求先として割り当てる',
+    'status' => '状態',
+    'name_and_code_agent' => '得意先',
+    'consumption_taxation_method' => '消費税課税方法',
+    'print_type' => '納品書枚数',
+    'collection_rate' => '帳合料率',
+    'filters' => [
+        'code' => '得意先No.',
+        'name' => '検索文字例',
+        'parent' => '絞込み請求先'
+    ],
+    'mess_delete' => 'を削除してよろしいですか？',
+    'tax' =>'税率',
+];
+
+//translation to English
+$arrEnglish = [
+    'create_new' => 'Create new agent',
+    'edit_item' => 'Edit agent',
+    'filter' => 'Filter agent',
+    'created' => 'Agent has been created',
+    'updated' => 'Agent has been updated',
+    'deleted' => 'Agent has been deleted',
+    'code' => 'Agent code',
+    'name' => 'Agent name',
+    'name_kana' => 'Agent name kana',
+    'zip_code' => 'Zip code',
+    'address' => 'Address 1',
+    'address_more' => 'Address 2',
+    'fax' => 'Fax',
+    'tel' => 'Tel',
+    'billing_cycle' => 'Billing cycle',
+    'billing_cycle_help_text' => '※Month end billing is 31.',
+    'price_format' => 'Price format',
+    'tax_category' => 'Tax category',
+    'price_after_tax_format' => 'Price after tax format',
+    'billing_name' => 'Billing name',
+    'assign_as_billing' => 'Assign as billing',
+    'status' => 'Status',
+    'name_and_code_agent' => 'Agent',
+    'consumption_taxation_method' => 'Consumption taxation method',
+    'print_type' => 'Print type',
+    'collection_rate' => 'Collection rate',
+    'filters' => [
+        'code' => 'Agent code',
+        'name' => 'Search keyword',
+        'parent' => 'Filter billing'
+    ],
+    'mess_delete' => 'Are you sure you want to delete?',
+    'tax' =>'Tax',
+    'regis_number' => 'Registration number',
+];
+
+return $arrEnglish;

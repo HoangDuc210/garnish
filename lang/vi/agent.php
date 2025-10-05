@@ -1,0 +1,76 @@
+<?php
+
+$arrJapan =  [
+    'create_new' => '得意先情報登録',
+    'edit_item' => '得意先情報編集',
+    'filter' => '得意先 検索',
+    'created' => '得意先を追加いたしました',
+    'updated' => '得意先情報を正常に変更されました',
+    'deleted' => '削除されました。',
+    'code' => '得意先No.',
+    'name' => '得意先名称',
+    'name_kana' => 'かな名称',
+    'zip_code' => '〒',
+    'address' => '住所 ①',
+    'address_more' => '住所 ②',
+    'fax' => 'FAX',
+    'tel' => 'TEL',
+    'billing_cycle' => '締日',
+    'billing_cycle_help_text' => '※月末締は３１に設定。',
+    'price_format' => '端数処理',
+    'tax_category' => '消費税区分',
+    'price_after_tax_format' => '消費税端数',
+    'billing_name' => '請求先名',
+    'assign_as_billing' => '請求先として割り当てる',
+    'status' => '状態',
+    'name_and_code_agent' => '得意先',
+    'consumption_taxation_method' => '消費税課税方法',
+    'print_type' => '納品書枚数',
+    'collection_rate' => '帳合料率',
+    'filters' => [
+        'code' => '得意先No.',
+        'name' => '検索文字例',
+        'parent' => '絞込み請求先'
+    ],
+    'mess_delete' => 'を削除してよろしいですか？',
+    'tax' => '税率',
+];
+
+//translation to Vietnamese
+$arrVietnamese = [
+    'create_new' => 'Thêm mới khách hàng',
+    'edit_item' => 'Chỉnh sửa khách hàng',
+    'filter' => 'Tìm kiếm khách hàng',
+    'created' => 'Thêm mới khách hàng thành công',
+    'updated' => 'Chỉnh sửa khách hàng thành công',
+    'deleted' => 'Xóa khách hàng thành công',
+    'code' => 'Mã khách hàng',
+    'name' => 'Tên khách hàng',
+    'name_kana' => 'Tên kana',
+    'zip_code' => 'Mã bưu điện',
+    'address' => 'Địa chỉ 1',
+    'address_more' => 'Địa chỉ 2',
+    'fax' => 'Fax',
+    'tel' => 'Điện thoại',
+    'billing_cycle' => 'Ngày kết sổ',
+    'billing_cycle_help_text' => '※Cuối tháng là 31',
+    'price_format' => 'Định dạng giá',
+    'tax_category' => 'Loại thuế',
+    'price_after_tax_format' => 'Định dạng giá sau thuế',
+    'billing_name' => 'Tên đơn vị thanh toán',
+    'assign_as_billing' => 'Gán làm đơn vị thanh toán',
+    'status' => 'Trạng thái',
+    'name_and_code_agent' => 'Khách hàng',
+    'consumption_taxation_method' => 'Phương thức tính thuế',
+    'print_type' => 'Số lượng phiếu xuất',
+    'collection_rate' => 'Tỷ lệ thu',
+    'filters' => [
+        'code' => 'Mã khách hàng',
+        'name' => 'Tìm kiếm theo tên',
+        'parent' => 'Tìm kiếm theo đơn vị thanh toán'
+    ],
+    'mess_delete' => 'Bạn có chắc chắn muốn xóa không?',
+    'tax' => 'Thuế suất',
+];
+
+return $arrVietnamese;

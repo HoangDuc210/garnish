@@ -1,0 +1,48 @@
+@page {
+    /* Browser default, customizable by the user in the print dialogue. */
+    size: auto;
+
+    /* Wildly different margins – the order matches the standard CSS margin property:
+    north, east, south, west. */
+    margin: 20px 20px 20px 20px;
+}
+
+.table-head{
+    margin-bottom: 30px;
+}
+
+.title {
+    padding: 5px 10px;
+    font-size: 30px;
+    background: #cccccc;
+    border: 1px solid #000;
+}
+
+.table-bordered th{
+    background: #cccccc;
+}
+
+.font-normal{
+    font-weight: normal;
+}
+
+.table-revenue-agent th{
+    padding: 7px;
+}
+
+.table-revenue-agent td{
+    padding: 5px;
+}
+
+.table-revenue-product th{
+    padding: 7px;
+}
+
+.table-revenue-product td{
+    padding: 5px;
+}
+
+.revenue table tr th,
+.revenue table tr td{
+    font-size: 14px !important;
+}

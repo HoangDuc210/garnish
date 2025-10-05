@@ -1,0 +1,37 @@
+<?php
+
+return [
+    'create_new' => '得意先情報登録',
+    'edit_item' => '得意先情報編集',
+    'filter' => '得意先 検索',
+    'created' => '得意先を追加いたしました',
+    'updated' => '得意先情報を正常に変更されました',
+    'deleted' => '削除されました。',
+    'code' => '得意先No.',
+    'name' => '得意先名称',
+    'name_kana' => 'かな名称',
+    'zip_code' => '〒',
+    'address' => '住所 ①',
+    'address_more' => '住所 ②',
+    'fax' => 'FAX',
+    'tel' => 'TEL',
+    'billing_cycle' => '締日',
+    'billing_cycle_help_text' => '※月末締は３１に設定。',
+    'price_format' => '端数処理',
+    'tax_category' => '消費税区分',
+    'price_after_tax_format' => '消費税端数',
+    'billing_name' => '請求先名',
+    'assign_as_billing' => '請求先として割り当てる',
+    'status' => '状態',
+    'name_and_code_agent' => '得意先',
+    'consumption_taxation_method' => '消費税課税方法',
+    'print_type' => '納品書枚数',
+    'collection_rate' => '帳合料率',
+    'filters' => [
+        'code' => '得意先No.',
+        'name' => '検索文字例',
+        'parent' => '絞込み請求先'
+    ],
+    'mess_delete' => 'を削除してよろしいですか？',
+    'tax' =>'税率',
+];

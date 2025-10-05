@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'yugothib';
+    src: url('../../fonts/yugothib.ttf') serif;
+    font-weight: 400;
+    font-style: 400;
+}
+body{
+    font-size: 20px;
+    font-family: 'yugothib';
+}
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: 300 !important;
+}
+
+table th, td{
+    font-weight: 400;
+}
+
+.table-bordered th {
+    border: 1px solid #000;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.table-bordered td{
+    border: 1px solid #000;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.text-start {
+    text-align: left;
+}
+
+.vertical-bottom{
+    vertical-align: bottom !important;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.w-5{
+    width: 5%;
+}
+
+.w-10{
+    width: 10%;
+}
+.w-15{
+    width: 15%;
+}
+.w-20{
+    width: 20%;
+}
+.w-25{
+    width: 25%;
+}
+.w-30{
+    width: 30%;
+}
+.w-35{
+    width: 35%;
+}
+.w-40{
+    width: 40%;
+}
+.w-45{
+    width: 45%;
+}
+.w-50{
+    width: 50%;
+}
+
+.w-55{
+    width: 55%;
+}
+.w-60{
+    width: 60%;
+}
+.w-65{
+    width: 65%;
+}
+.w-70{
+    width: 70%;
+}
+.w-75{
+    width: 75%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.w-95{
+    width: 95%;
+}
+.w-100{
+    width: 100%;
+}
+
+.border-color-transparent{
+    border-color: transparent;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.mb-3{
+    margin-bottom: 15px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #000;
+}
+
+.border-solid{
+    border: 1px solid #000;
+
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+.border-radius-5{
+    border-radius: 5px;
+}
+.m-0{
+    margin: 0!important;
+}
+.p-5{
+    padding: 5px;
+}
+.p-10{
+    padding: 10px;
+}
+.m-auto{
+    margin: auto;
+}
+.vertical-baseline{
+    vertical-align: baseline;
+}
+
+.border-left-none{
+    border-left: 0 !important;
+}
+
+.border-right-none{
+    border-right: 0 !important;
+}
+
+.border-top-none{
+    border-top: 0 !important;
+}
+
+.border-bottom-none{
+    border-bottom: 0 !important;
+}
+
+.border-left-solid{
+    border-left: solid 1px #000;
+}
+
+.border-right-solid{
+    border-right: solid 1px #000;
+}
+
+.border-top-solid{
+    border-top: solid 1px #000;
+}
+
+.border-bottom-solid{
+    border-bottom: solid 1px #000;
+}
+
+.mb-5{
+    margin-bottom: 5px;
+}
+
+.pb-0{
+    padding-bottom: 0px !important;
+}
+
+.paper-a5{
+    font-size: 20px !important;
+}
+
+.border-fff{
+    border: solid 1px #fff !important;
+}
+
+.font-weight-bold{
+    font-weight: bold !important
+}
+
+.mb-5{
+    margin-bottom: 25px;
+}
+
+.mb-6{
+    margin-bottom: 30px;
+}
+
+.vertical-top{
+    vertical-align: top !important;
+}
+
+.bg-fff{
+    background: #fff !important;
+}
+
+.visibility-hidden{
+    visibility:  hidden !important;
+}
+
+.fs-20{
+    font-size: 20px !important;
+}
+
+.pt-5px{
+    padding-top: 5px !important;
+}
+
+.pr-5px{
+    padding-right: 5px !important
+}
+.pr-9px{
+    padding-right: 9px !important
+}
+.pl-3{
+    padding-left: 15px !important
+}
+
+.pt-3{
+    padding-top: 15px !important;
+}
+
+.p-0{
+    padding: 0 !important
+}
+
+.pr-2{
+    padding-right: 10px !important;
+}
+
+.fs-13{
+    font-size: 13px !important;
+}
+
+.fs-14{
+    font-size: 14px !important;
+}
+
+.pb-3{
+    padding-bottom: 15px;
+}
+
+.mb-4{
+    margin-bottom: 20px;
+}
+
+.mb-5{
+    margin-bottom: 25px;
+}

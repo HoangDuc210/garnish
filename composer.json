@@ -1,0 +1,94 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0|^8.1",
+        "aws/aws-sdk-php": "^3.234",
+        "barryvdh/laravel-debugbar": "^3.8",
+        "bensampo/laravel-enum": "^6.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.19",
+        "laravel/sanctum": "^3.0",
+        "laravel/tinker": "^2.7",
+        "maatwebsite/excel": "^3.1",
+        "mariuzzo/laravel-js-localization": "^1.9",
+        "mpdf/mpdf": "^8.1",
+        "predis/predis": "^2.1",
+        "prettus/l5-repository": "^2.8",
+        "sclaravel/enums": "^1.1",
+        "sclaravel/laravel-form-components": "^1.0",
+        "webklex/laravel-pdfmerger": "^1.3"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.12",
+        "fakerphp/faker": "^1.9.1",
+        "huangdijia/laravel-redis-ide-helper": "^2.0",
+        "krlove/eloquent-model-generator": "*",
+        "laravel/pint": "^1.6",
+        "laravel/sail": "^1.0.1",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^6.1",
+        "phpmd/phpmd": "^2.12",
+        "phpunit/phpunit": "^9.5.10",
+        "spatie/laravel-ignition": "^1.0",
+        "squizlabs/php_codesniffer": "^3.7"
+    },
+    "autoload": {
+        "files": [
+            "app/Constants/constants.php",
+            "app/Constants/routes.php"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ],
+        "lint": [
+            "./vendor/bin/phpcs"
+        ],
+        "lint-fix": [
+            "./vendor/bin/phpcbf"
+        ],
+        "mess": [
+            "./vendor/bin/phpmd app text phpmd.xml --suffixes php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

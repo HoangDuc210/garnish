@@ -1,0 +1,31 @@
+.table{
+    .btn-circle{
+        border-radius: 100%;
+        padding: 0!important;
+        width: 30px;
+        height: 29px;
+    }
+    tr{
+        th{
+            text-align: center;
+            &:last-child{
+                width: 5%;
+            }
+        }
+        td{
+            &:first-child{
+                text-align: center;
+                width: 5%;
+            }
+            &:last-child{
+                width: 5%;
+            }
+        }
+    }
+}
+
+.close-error {
+    .error{
+        display: none !important;
+    }
+}

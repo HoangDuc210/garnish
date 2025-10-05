@@ -1,0 +1,84 @@
+.table-head{
+    margin-bottom: 30px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+.font-normal{
+    font-weight: 400 !important;
+}
+
+.print .table-bordered th{
+    padding:10px !important;
+    border: none !important;
+}
+
+.print .table-bordered td{
+    padding:10px !important;
+    border: none !important;
+}
+
+.paper-a5.n335 .table-bordered th{
+    padding:3px !important;
+    font-size: 16px !important;
+}
+
+.paper-a5.n335 .table-bordered td{
+    padding:11px !important;
+}
+
+.paper-a5 .table-total-maruto td{
+    padding:5px !important;
+}
+
+.receipt-normal .company-name {
+    font-size: x-large;
+}
+
+.receipt-normal .table-receipt-normal td{
+    height:46px !important;
+    padding:0 !important;
+}
+
+.receipt-normal .col-name {
+    width: 37% !important;
+    padding-left: 20px;
+}
+
+.receipt-normal .col-quantity {
+    width: 9% !important;
+}
+
+.receipt-normal .col-price {
+    width: 10% !important;
+}
+
+.receipt-normal .col-amount {
+    width: 28% !important;
+}
+
+.receipt-normal .col-rate {
+    width: 7.5% !important;
+}
+
+.receipt-normal .table-receipt-normal td{
+    height:47px !important;
+    padding: 0 !important;
+    padding-right: 5px;
+}
+
+.receipt-normal .letter-space{
+    letter-spacing: 3px;
+}
+
+.table-receipt-normal .letter-space{
+    letter-spacing: 2px !important;
+}
+
+.img-circle{
+    height: 50px;
+    width: 80px;
+    margin-bottom: 7px;
+}

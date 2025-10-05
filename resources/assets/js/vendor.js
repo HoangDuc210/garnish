@@ -1,0 +1,18 @@
+import '../_common/js/jquery';
+import '../_common/js/bootstrap';
+import '../_common/js/lodash-install.js';
+import '../_common/js/translator.js';
+import '../_common/js/form-validation.js';
+import 'jquery.repeater';
+import '@fortawesome/fontawesome-free/js/all';
+import '../_common/js/bootstrap-datepicker.js';
+import '../_common/js/select2';
+import '../js/pages/checkboxItemList.js';
+import Swal from 'sweetalert2/dist/sweetalert2.js';
+window.Swal = Swal;
+import moment from 'moment';
+window.moment = moment;
+import printJS from 'print-js';
+window.printJS = printJS;
+import Inputmask from 'inputmask';
+window.Inputmask = Inputmask;

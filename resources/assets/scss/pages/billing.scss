@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'yugothib';
+    src: url('../../theme/acorn/fonts/yugothib.ttf') serif;
+    font-weight: 400;
+    font-style: 400;
+}
+// General
+.text-right {
+    text-align: right !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.tr-bold {
+    td {
+        font-weight: bold;
+    }
+}
+
+.page-index {
+    text-align: right;
+    font-weight: bold;
+}
+
+// Printer
+.print-page-break {
+    display: none;
+}
+
+@media print {
+    .print-page-break {
+        margin-top: 1rem;
+        display: block;
+        page-break-after: always;
+    }
+
+    .no-print {
+        display: none;
+    }
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}
+
+.origin-container {
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        border: 1px solid #333;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 100%;
+        th {
+            text-align: center;
+        }
+    }
+
+    table> :not(caption)>*>* {
+        padding: 0.1rem 0.1rem;
+    }
+
+    table> :not(:last-child)> :last-child>* {
+        border-bottom-color: #8c8c8c
+    }
+}
+
+.card-print{
+    font-family: 'yugothib';
+}
+
+.billing {
+    .calculate-date-info {
+        border: 2px solid #f5f5f5;
+        border-radius: 10px;
+        padding: 7px 10px;
+    }
+
+    .preview-container {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+
+        .right-header {
+            text-align: right;
+        }
+
+        .header {
+            .title {
+                display: inline-block;
+                font-weight: bold;
+                font-size: 22px;
+                background: #bfbfbf;
+                padding: 2px 10px;
+                margin-bottom: 10px;
+            }
+
+            .deadline {
+                border-bottom: 1px solid #333;
+                padding-bottom: 5px;
+            }
+        }
+
+        .info {
+            margin-bottom: 20px;
+
+            .item {
+                div {
+                    margin-bottom: 10px;
+                }
+            }
+            .company{
+                position: relative;
+                z-index: 0;
+                .fax,
+                .tel{
+                    padding-left: 50px;
+                }
+                .name {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+                .position-image {
+                    position: absolute;
+                    z-index: -1;
+                    right: 20px;
+                    top: -15px;
+                    width: 100px;
+                }
+            }
+        }
+
+        .sub-info {
+            margin-top: -5rem;
+            margin-bottom: 10px;
+        }
+
+        .stamp {
+            div {
+                border: 1px solid #333;
+                height: 83px;
+            }
+
+            .second {
+                border-left: none !important;
+            }
+        }
+
+        .agent-title {
+            font-weight: bold;
+            border: none;
+        }
+
+        .agent-title>td {
+            border: none;
+        }
+
+        .company-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            margin-bottom: 20px;
+        }
+
+        table {
+            caption-side: bottom;
+            border-collapse: collapse;
+        }
+    }
+}
+
+.table-deposit{
+    margin-bottom: 0;
+    th,td{
+        border: 1px solid #000 !important;
+    }
+    th{
+        background: #ccc;
+        text-align: center;
+    }
+}
+
+.data-table{
+    th,td{
+        border: 1px solid #000 !important;
+    }
+    th{
+        text-align: center;
+        background: #ccc;
+    }
+}
+
+.w-15{
+    width: 15%!important;
+}
+
+
+@media (min-width: 1398px) {
+    .billing{
+        .info{
+            .company{
+                padding-right: 68px;
+                .position-image{
+                    right: 75px !important;
+                }
+            }
+        }
+    }
+}

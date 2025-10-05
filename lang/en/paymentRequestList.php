@@ -1,0 +1,24 @@
+<?php
+
+$arrJapan =  [
+    'being_requested_for_payment' => '名前',
+    'request_last_time' => '前回御請依頼',
+    'down_payment' => '卸入金頼',
+    'money_brought_back_last_time' => '繰越金頼',
+    'wholesale_inquiry' => '卸買上頼',
+    'tax' => '消費税',
+    'request_this_time' => '今回御請依頼',
+];
+
+//Translate Item To English
+$arrEnglish = [
+    'being_requested_for_payment' => 'Name',
+    'request_last_time' => 'Last request',
+    'down_payment' => 'Down payment',
+    'money_brought_back_last_time' => 'Money brought back last time',
+    'wholesale_inquiry' => 'Wholesale inquiry',
+    'tax' => 'Tax',
+    'request_this_time' => 'Request this time',
+];
+
+return $arrEnglish;

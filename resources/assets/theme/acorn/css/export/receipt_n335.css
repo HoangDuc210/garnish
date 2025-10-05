@@ -1,0 +1,55 @@
+@page {
+    /* Browser default, customizable by the user in the print dialogue. */
+    size: auto;
+
+    /* Wildly different margins – the order matches the standard CSS margin property:
+    north, east, south, west. */
+    margin: 25px 25px 30px 25px;
+}
+
+.paper-a5 .table-receipt-maruto-n335 td{
+    height:46px !important;
+    padding:0 !important;
+}
+
+.paper-a5 .table-receipt-maruto-n335 th{
+    height:0 !important;
+    padding:0 !important;
+}
+
+.table-receipt-maruto-n335 .col-name {
+    width: 45% !important;
+    padding-left: 15px !important;
+}
+
+.table-receipt-maruto-n335 .col-quantity {
+    width: 11% !important;
+}
+
+.table-receipt-maruto-n335 .col-price {
+    width: 13% !important;
+}
+
+.table-receipt-maruto-n335 .col-amount {
+    width: 20% !important;
+}
+
+
+.table-receipt-maruto-n335 .col-memo {
+    width: 14.7% !important;
+}
+
+.table-receipt-maruto-n335 .letter-space{
+    letter-spacing: 2px;
+}
+
+.consumption-tax{
+    padding: 0 !important;
+    padding-left: 10px !important;
+    padding-top: 15px !important;
+}
+
+.col-name p{
+    font-size: 5px !important;
+    margin-bottom: 0;
+}

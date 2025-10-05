@@ -1,0 +1,236 @@
+.jconfirm-content{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.readonly-custom{
+    .form-control[readonly]{
+        background: #fff !important;
+        color: #000 !important;
+        -webkit-text-fill-color: #000 !important;
+    }
+}
+
+.btn-circle{
+    border-radius: 100%;
+    padding: 0!important;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-default{
+    background: #1ea8e7 !important;
+}
+
+.table.repeater{
+    td{
+        vertical-align: top;
+    }
+}
+
+.printed{
+    background: #279aac;
+    color: #fff !important;
+}
+
+.filter-invert-1{
+    filter: invert(1);
+}
+
+div.form-group-mb-0{
+    margin-bottom: 0 !important;
+}
+
+.dropdown-menu{
+    z-index: 1100 !important;
+}
+
+.pe-none{
+    opacity: 0.6;
+}
+
+.vertical-middle{
+    vertical-align: middle !important;
+}
+
+.code-error{
+    border-color: #dc3545 !important;
+    padding-right: calc(1.5em + 0.75rem) !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23dc3545'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") !important;
+    background-repeat: no-repeat !important;
+    background-position: right calc(0.375em + 0.1875rem) center !important;
+    background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem) !important;
+}
+
+.was-validated .form-control:valid ~ .invalid-code{
+    display: none !important;
+}
+
+.table-deposit{
+    .form-select:disabled{
+        background-color: #fff !important;
+    }
+    .form-control:disabled{
+        background: #fff !important;
+        color: #000 !important;
+        -webkit-text-fill-color: #000 !important;
+    }
+    .select2-container--bootstrap4.select2-container--disabled .select2-selection{
+        background-color: #fff !important;
+    }
+}
+
+.date-filter-middle {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.readonly-custom {
+    .invalid-feedback:nth-child(2){
+        display: none !important;
+    }
+}
+
+.tooltip{
+    --bs-tooltip-bg: var(--primary);
+    .tooltip-inner{
+        border-radius: 5px !important;
+    }
+}
+
+.custom-modal-login{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    top: 50%;
+}
+
+.rule-password{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.custom.overlay-spinner{
+    position: fixed !important;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: unset !important;
+}
+
+.box-limit select[name=limit]{
+    margin-left: 5px;
+    width: 30% !important;
+}
+
+.dataTables_paginate{
+    margin-top: 15px;
+}
+
+.error-unit_code{
+    ~.select2{
+        .select2-selection{
+            border-color: var(--danger) !important;
+        }
+    }
+}
+
+.error-message{
+    color: var(--danger) !important;
+    margin-top: 5px;
+}
+
+.was-validated {
+    .table-product{
+        .form-control{
+            &:valid{
+                border-color: #e6e6e6;
+                background: transparent !important;
+                padding: 5px;
+                &:focus{
+                    border-color: #e6e6e6 !important;
+                }
+            }
+            .is_valid{
+                &:focus{
+                    border-color: #e6e6e6 !important;
+                }
+            }
+        }
+    }
+}
+
+.table-product{
+    thead, tbody tr {
+        display:table;
+        width:100%;
+        table-layout:fixed;
+    }
+}
+
+.btn-icon-start{
+    margin-top: 8px !important;
+}
+
+.modal_search {
+    .modal-overflow {
+        overflow: auto;
+        height: 500px;
+        justify-content: space-between;
+    }
+}
+
+.fixed-submit{
+    position: fixed;
+    z-index: 99;
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    left: 0;
+    padding: 20px;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.tooltip{
+    z-index: 99;
+}
+
+@media (max-width: 1199px) {
+    .select2-container--bootstrap4
+    {
+        .select2-dropdown.select2-dropdown--below,
+        .select2-dropdown.select2-dropdown--above{
+            width: 200px !important;
+        }
+        .select2-results {
+           & > .select2-results__options{
+            &::-webkit-scrollbar {
+                width: 10px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: #f1f1f1;
+              }
+           }
+        }
+    }
+    .modal_search {
+        .modal-overflow {
+            height: 400px;
+        }
+    }
+}
+input[name="tax_rate"] {
+    text-align: left !important;
+}
